@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Button, { SelectButton } from './Button';
-import styles from '../styles/modules/app.module.scss';
+import styles from '../styles/modules/app.module.css';
 import TodoModal from './TodoModal';
 import { updateFilterStatus } from '../store/';
 

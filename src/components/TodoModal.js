@@ -8,7 +8,7 @@ import {
   useCreateTodoMutation,
   useUpdateTodoMutation,
 } from "../store/";
-import styles from "../styles/modules/modal.module.scss";
+import styles from "../styles/modules/modal.module.css";
 import Button from "./Button";
 
 const dropIn = {
@@ -72,7 +72,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
           todo.status !== status ||
           todo.priority !== priority
         ) {
-          updateTodo({ ...todo, title, status });
+          updateTodo({ ...todo, title, status, priority });
           toast.success("Task Updated successfully");
         } else {
           toast.error("No changes made");

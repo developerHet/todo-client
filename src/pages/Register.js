@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useRegisterMutation } from "../store";
 import { Link, Navigate } from "react-router-dom";
-import styles from "../styles/modules/login.module.scss";
+import styles from "../styles/modules/login.module.css";
 
 function Register() {
   const [name, setName] = useState("");

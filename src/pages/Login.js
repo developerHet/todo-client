@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useLoginMutation } from "../store";
 import { Link } from "react-router-dom";
 
-import styles from "../styles/modules/login.module.scss";
+import styles from "../styles/modules/login.module.css";
 
 function Login() {
   const [email, setEmail] = useState("");

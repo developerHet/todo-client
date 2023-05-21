@@ -6,7 +6,7 @@ import { RxCross2 } from "react-icons/rx";
 import { BiCheck } from "react-icons/bi";
 
 import { useDeleteTodoMutation, useUpdateTodoMutation } from "../store/";
-import styles from "../styles/modules/todoItem.module.scss";
+import styles from "../styles/modules/todoItem.module.css";
 import TodoModal from "./TodoModal";
 
 const child = {
